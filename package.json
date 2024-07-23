@@ -1,0 +1,29 @@
+{
+  "name": "arviis-v13-advanced-ticket-system",
+  "version": "9.9.9",
+  "description": "arviis. - V13 Advanced Ticket System",
+  "main": "arvis.js",
+  "scripts": {
+    "test": "node arvis.js",
+    "arviis:dev": "nodemon arvis.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArviiSoft/V13-Gelismis-Ticket-Bot.git"
+  },
+  "author": "arviiis.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArviiSoft/V13-Gelismis-Ticket-Bot/issues"
+  },
+  "homepage": "https://github.com/ArviiSoft/V13-Gelismis-Ticket-Bot#readme",
+  "dependencies": {
+    "@agc93/privatebin": "^0.0.3",
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.2.0",
+    "nodemon": "^3.1.4"
+  }
+}
